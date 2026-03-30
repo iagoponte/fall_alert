@@ -1,0 +1,30 @@
+# Gradle
+.gradle/
+build/
+gradle-wrapper.jar
+
+# Android Studio / IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+local.properties
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Keystore (NUNCA versionar chaves de assinatura)
+*.jks
+*.keystore
+release/
+
+# Outputs de build
+app/build/
+app/release/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
