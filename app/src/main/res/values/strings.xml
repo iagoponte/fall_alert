@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">QuedaAlerta</string>
+    <string name="nav_home">Início</string>
+    <string name="nav_sensor">Sensor</string>
+    <string name="nav_contacts">Contatos</string>
+    <string name="btn_activate">Ativar Monitoramento</string>
+    <string name="btn_deactivate">Desativar Monitoramento</string>
+    <string name="status_active">● Ativo</string>
+    <string name="status_inactive">○ Inativo</string>
+</resources>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Theme.QuedaAlerta" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/primary</item>
+        <item name="colorOnPrimary">@color/on_primary</item>
+        <item name="colorPrimaryContainer">@color/primary_container</item>
+        <item name="colorOnPrimaryContainer">@color/on_primary_container</item>
+
+        <!-- Error -->
+        <item name="colorError">@color/error</item>
+        <item name="colorErrorContainer">@color/error_container</item>
+        <item name="colorOnError">@color/on_error</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/surface</item>
+
+        <!-- Window -->
+        <item name="android:windowBackground">@color/surface</item>
+        <item name="android:statusBarColor">?attr/colorSurface</item>
+        <item name="android:navigationBarColor">?attr/colorSurface</item>
+        <item name="android:windowLightStatusBar">true</item>
+
+        <!-- Custom Attrs -->
+        <item name="bottomNavigationHeight">56dp</item>
+    </style>
+
+    <!-- Tema específico para AlertActivity com fundo avermelhado -->
+    <style name="Theme.QuedaAlerta.Alert" parent="Theme.QuedaAlerta">
+        <item name="android:windowBackground">@color/error_container</item>
+    </style>
+</resources>
