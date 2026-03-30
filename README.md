@@ -1,4 +1,4 @@
-# QuedaAlerta 🛡️
+# Fall Alert (Queda Alerta) 🛡️
 **Aplicativo Android para detecção de quedas em idosos via acelerômetro**
 
 ---
